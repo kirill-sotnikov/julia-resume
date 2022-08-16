@@ -19,6 +19,7 @@ const HomePage = () => {
           height="100%"
           layout="responsive"
           objectFit="contain"
+          priority
         />
       </LampImageWrapper>
       <div style={{ textAlign: "center", gridRowStart: 2 }}>
