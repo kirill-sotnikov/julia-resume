@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useEffect } from "react";
 import styled, { keyframes } from "styled-components";
+import NavigationBar from "../src/components/NavigationBar";
 
 const HomePage = () => {
   useEffect(() => {
@@ -12,7 +13,8 @@ const HomePage = () => {
 
   return (
     <HomePageWrapper>
-      <LampImageWrapper>
+      <NavigationBar />
+      <LampImageWrapper style={{ width: "30vh", margin: "0 auto" }}>
         <Image
           src="/img/lamp.svg"
           width="100%"
@@ -113,6 +115,7 @@ const ButtonMyWork = styled.button`
   font-size: max(12px, 1.2vw);
   transition: all ease 1s;
   animation: ${animationItems} 3s linear;
+  cursor: pointer;
 
   &:hover {
     color: #111;

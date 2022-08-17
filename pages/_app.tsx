@@ -1,4 +1,5 @@
 import type { AppProps } from "next/app";
+import Head from "next/head";
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
@@ -24,6 +25,9 @@ a {
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
+      <Head>
+        <title>Jula Gruzdeva</title>
+      </Head>
       <GlobalStyles />
       <Component {...pageProps} />
     </>

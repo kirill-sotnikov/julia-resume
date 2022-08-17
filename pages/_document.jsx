@@ -31,12 +31,17 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
           <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Zen+Maru+Gothic&display=swap"
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossOrigin="true"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Zen+Maru+Gothic&display=swap"
             rel="stylesheet"
           />
           <meta name="theme-color" content="#111111" />
+          <title>Julia Gruzdeva</title>
         </Head>
         <body>
           <Main />
