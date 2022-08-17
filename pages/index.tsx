@@ -60,7 +60,7 @@ const LampImageWrapper = styled.div`
   display: flex;
   position: relative;
   flex-direction: column;
-  animation: show 200ms;
+  animation: show 300ms;
 
   @keyframes show {
     from {
