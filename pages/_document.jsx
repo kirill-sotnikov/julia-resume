@@ -41,7 +41,6 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
           <meta name="theme-color" content="#111111" />
-          <title>Julia Gruzdeva</title>
         </Head>
         <body>
           <Main />

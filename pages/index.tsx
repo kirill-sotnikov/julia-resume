@@ -60,6 +60,16 @@ const LampImageWrapper = styled.div`
   display: flex;
   position: relative;
   flex-direction: column;
+  animation: show 100ms;
+
+  @keyframes show {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 
   @media screen and (max-width: 600px) {
     min-height: 100px;
