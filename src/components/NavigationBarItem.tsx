@@ -37,6 +37,7 @@ const NavigationBarItemInner = styled.p`
   color: #dadada;
   cursor: pointer;
   line-height: 30px;
+  pointer-events: none;
 
   &:hover {
     color: white;
