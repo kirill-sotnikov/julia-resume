@@ -37,12 +37,10 @@ const NavigationBarItemInner = styled.p`
   color: #dadada;
   cursor: pointer;
   line-height: 30px;
+  outline: none;
 
   &:hover {
     color: white;
-  }
-
-  &:active {
   }
 
   @media screen and (max-width: 600px) {
