@@ -29,4 +29,10 @@ const NavigationBarWrapper = styled.div`
   top: 20px;
   right: 20px;
   z-index: 1;
+
+  @media screen and (max-width: 700px) {
+    left: calc(50% - 140px);
+    width: fit-content;
+    margin-left: -10px;
+  }
 `;

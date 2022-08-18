@@ -103,7 +103,7 @@ const BigBoldText = styled.p`
   }
 `;
 
-const SmallText = styled.p`
+export const SmallText = styled.p`
   font-family: "Zen Maru Gothic";
   font-style: normal;
   font-weight: 400;

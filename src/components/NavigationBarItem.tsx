@@ -41,6 +41,10 @@ const NavigationBarItemInner = styled.p`
   &:hover {
     color: white;
   }
+
+  @media screen and (max-width: 600px) {
+    font-size: 15px;
+  }
 `;
 
 const BorderBottom = styled.div`
